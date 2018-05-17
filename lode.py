@@ -71,3 +71,4 @@ print(falcon._x, falcon._y)
 pyglet.clock.schedule_interval(tiktak, 1/25)
 
 pyglet.app.run()
+
