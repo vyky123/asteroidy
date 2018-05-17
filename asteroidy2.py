@@ -41,8 +41,6 @@ def tiktak(t):
             else: 
                 rychlost +=10
     
-    
-    
 
 @window.event
 def on_draw():
@@ -73,15 +71,19 @@ def on_key_press(sym, mod):
     global rychlost
     if sym == 65362:
         uhel = 0
+        sprite.rotation = 0
     
     elif sym == 65363:
         uhel = 90
+        sprite.rotation = 90
     
     elif sym == 65364:
         uhel = 180
+        sprite.rotation = 180
     
     elif sym == 65361:
         uhel = 270
+        sprite.rotation = -90
  
     print(sym, mod)
     
